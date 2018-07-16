@@ -2,12 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MusicPlayer : MonoBehaviour {
+public class MusicPlayer : MonoBehaviour
+{
+    private static bool created = false;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    void Awake()
+    {
+        if (!created)
+        {
+            DontDestroyOnLoad(gameObject);
+            created = true;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
