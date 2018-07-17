@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MusicPlayer : MonoBehaviour
 {
@@ -14,9 +12,4 @@ public class MusicPlayer : MonoBehaviour
             created = true;
         }
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

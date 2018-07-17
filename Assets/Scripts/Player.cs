@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class Player : MonoBehaviour {
-
+public class Player : MonoBehaviour
+{
     // Default position: (0, -1.4, 5.7)
 
     [Tooltip("In ms^-1")][SerializeField] float speed = 15f;
@@ -16,14 +16,10 @@ public class Player : MonoBehaviour {
     [SerializeField] float controlRollFactor = -20f;
 
     float xThrow, yThrow;
-
-    // Use this for initialization
-    void Start () {
-		
-	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update()
+    {
         ProcessTranslation();
         ProcessRotation();
 	}
