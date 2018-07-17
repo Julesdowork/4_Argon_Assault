@@ -617,8 +617,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  xLimit: 3
-  yLimit: 2
+  xLimit: 5.5
+  yLimit: 3
+  positionPitchFactor: -5
+  controlPitchFactor: -20
+  positionYawFactor: 5
+  controlRollFactor: -20
 --- !u!1 &1795473843
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,7 +668,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4033982115115900, guid: 5f1e6cc98c0b7584eb233e303d0e5298, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 5.7
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 4033982115115900, guid: 5f1e6cc98c0b7584eb233e303d0e5298, type: 2}
       propertyPath: m_LocalRotation.x
