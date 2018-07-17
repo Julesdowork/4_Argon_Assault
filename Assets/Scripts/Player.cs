@@ -24,6 +24,11 @@ public class Player : MonoBehaviour
         ProcessRotation();
 	}
 
+    void OnTriggerEnter(Collider collider)
+    {
+        print("Player triggered something");
+    }
+
     void ProcessTranslation()
     {
         xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
