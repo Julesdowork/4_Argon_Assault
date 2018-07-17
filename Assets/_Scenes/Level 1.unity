@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 17999240}
   m_Layer: 0
-  m_Name: GameObject 7
+  m_Name: Waypoint 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215,7 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 204996921}
   m_Layer: 0
-  m_Name: GameObject 2
+  m_Name: Waypoint 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,7 +243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230488095}
   m_Layer: 0
-  m_Name: GameObject 10
+  m_Name: Waypoint 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 2145829037}
-  lookAheadForTargetOffset: 5
+  lookAheadForTargetOffset: 1
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 10
   lookAheadForSpeedFactor: 0.2
@@ -324,7 +324,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 80
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -436,7 +436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1058457067}
   m_Layer: 0
-  m_Name: GameObject 1
+  m_Name: Waypoint 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -464,7 +464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1107053038}
   m_Layer: 0
-  m_Name: GameObject 3
+  m_Name: Waypoint 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -492,7 +492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1211690893}
   m_Layer: 0
-  m_Name: GameObject 8
+  m_Name: Waypoint 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,7 +520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426887835}
   m_Layer: 0
-  m_Name: GameObject 9
+  m_Name: Waypoint 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -548,7 +548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1440149582}
   m_Layer: 0
-  m_Name: GameObject 4
+  m_Name: Waypoint 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -576,7 +576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1511862286}
   m_Layer: 0
-  m_Name: GameObject 5
+  m_Name: Waypoint 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -616,9 +616,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3939829bda4894a8f14f6949b3cf88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  xLimit: 5.5
-  yLimit: 3
+  speed: 10
+  xLimit: 6
+  yLimit: 4
   positionPitchFactor: -5
   controlPitchFactor: -20
   positionYawFactor: 5
@@ -632,7 +632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1795473844}
   m_Layer: 0
-  m_Name: GameObject 6
+  m_Name: Waypoint 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -668,7 +668,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4033982115115900, guid: 5f1e6cc98c0b7584eb233e303d0e5298, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 7.5
+      value: 5.7
       objectReference: {fileID: 0}
     - target: {fileID: 4033982115115900, guid: 5f1e6cc98c0b7584eb233e303d0e5298, type: 2}
       propertyPath: m_LocalRotation.x
