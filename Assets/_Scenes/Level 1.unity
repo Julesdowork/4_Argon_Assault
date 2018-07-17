@@ -494,6 +494,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4509504008094480, guid: f493118c89411184297ad6cbfe8efe8e,
     type: 2}
   m_PrefabInternal: {fileID: 1386622341}
+--- !u!1 &632505633 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1601524560675278, guid: 5f1e6cc98c0b7584eb233e303d0e5298,
+    type: 2}
+  m_PrefabInternal: {fileID: 2088898771}
 --- !u!4 &639550537 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4509504008094480, guid: f493118c89411184297ad6cbfe8efe8e,
@@ -1216,27 +1221,11 @@ Transform:
   m_Father: {fileID: 2145829038}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1562386141 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1009470853268766, guid: 5f1e6cc98c0b7584eb233e303d0e5298,
-    type: 2}
-  m_PrefabInternal: {fileID: 2088898771}
 --- !u!4 &1562386144 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4033982115115900, guid: 5f1e6cc98c0b7584eb233e303d0e5298,
     type: 2}
   m_PrefabInternal: {fileID: 2088898771}
---- !u!114 &1562386148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1562386141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad1d5c89ae60b34990a57ed75fcc036, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1671150510
 Prefab:
   m_ObjectHideFlags: 0
@@ -1535,16 +1524,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 54453102989589794, guid: 5f1e6cc98c0b7584eb233e303d0e5298,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 1
+    - target: {fileID: 1601524560675278, guid: 5f1e6cc98c0b7584eb233e303d0e5298, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 65677353079370540, guid: 5f1e6cc98c0b7584eb233e303d0e5298,
+    - target: {fileID: 114565866015897186, guid: 5f1e6cc98c0b7584eb233e303d0e5298,
         type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 632505633}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f1e6cc98c0b7584eb233e303d0e5298, type: 2}
   m_IsPrefabParent: 0
