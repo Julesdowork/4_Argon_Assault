@@ -5,13 +5,16 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] int scorePerHit = 12;
     [SerializeField] GameObject deathFX;
     [SerializeField] Transform parent;
 
+    ScoreBoard scoreBoard;
+
     void Start()
     {
-        Collider boxCollider = gameObject.AddComponent<BoxCollider>();
-        boxCollider.isTrigger = false;
+        AddBoxCollider();
+        scoreBoard = FindObjectOfType<ScoreBoard>();
     }
 
     void OnParticleCollision(GameObject other)
@@ -20,5 +23,12 @@ public class Enemy : MonoBehaviour
             Quaternion.identity);
         explosion.transform.parent = parent;
         Destroy(gameObject);
+        scoreBoard.ScoreHit(scorePerHit);
+    }
+
+    void AddBoxCollider()
+    {
+        Collider boxCollider = gameObject.AddComponent<BoxCollider>();
+        boxCollider.isTrigger = false;
     }
 }
