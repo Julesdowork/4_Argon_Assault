@@ -109,6 +109,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scorePerHit: 12
-  hits: 10
+  hits: 3
   deathFX: {fileID: 0}
   parent: {fileID: 0}
