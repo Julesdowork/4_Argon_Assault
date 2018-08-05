@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
     {
         foreach (GameObject gun in guns)    // may also affect Player Explosion FX
         {
-            //gun.SetActive(isActive);
+            gun.SetActive(isActive);
             var emissionModule = gun.GetComponent<ParticleSystem>().emission;
             emissionModule.enabled = isActive;
         }
